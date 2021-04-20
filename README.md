@@ -14,3 +14,5 @@ vehicle class carries vehicle params and also contains functions that can initia
 The 6DoF_plant_functions folder contains all the files required to simulate the high DoF plant that the controller is tested against. It includes 6DoF chassis and pacjeka wheel-tire model. You can ask for next state, velocity states/states_dot and Forces as output.
 
 Please go through the preprint.pdf file for theory. This is a confidential file and hence is not allowed to be distributed. 
+
+MPC_lin_veh dynamics is based on forward propagation of the model type 1 mentioned above. MPC_error_dynamics is based on forward propagation of the model type 2 from above. 

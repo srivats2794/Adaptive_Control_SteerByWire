@@ -3,10 +3,6 @@ sim_params;
 
 veh.tm = pacjekainit(data); %(pacjeka tire model)
 
-%data.inputs= DeltaSineFunc(data, deg2rad(20),2/(data.Tsim-3));
-%data.inputs.theta_sw= [zeros(2/data.Ts,1);data.inputs.theta_sw;zeros(1/data.Ts,1)];
-%plot(data.Tvec',data.inputs.theta_sw)
-
 veh.params(23)=veh.tm.mu_x_f;
 veh.params(24)=veh.tm.mu_y_f;
 veh.params(25)=veh.tm.Bx_f;

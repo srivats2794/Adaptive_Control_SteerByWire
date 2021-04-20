@@ -28,11 +28,6 @@ veh.D_phif = 8000; veh.params(19)=veh.D_phif;
 veh.D_phir = 8000; veh.params(20)=veh.D_phir;
 veh.D_phi = veh.D_phif+veh.D_phir; veh.params(21)=veh.D_phi;
 veh.params(22)= veh.g;
-% Cornering stiffness initial estimate given by
-% 16-17% of the load on the tire. 
-% 
-% veh.C_alpha_f= veh.m*0.165*(veh.l_f/veh.l)*57.2958;
-% veh.C_alpha_r= veh.m*0.165*(veh.l_r/veh.l)*57.2958;
 
 veh.scale = 1e3;
 veh.epsilon = 1e-6;
