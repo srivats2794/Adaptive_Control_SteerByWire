@@ -1,0 +1,12 @@
+# YAML 1.2
+---
+authors: 
+  -
+    affiliation: "Clemson University"
+    family-names: Srinivasan
+    given-names: Srivatsan
+cff-version: "1.1.0"
+date-released: 2021-06-08
+message: "If you use this software, please cite it using these metadata."
+title: "Adaptive and Reference Shaping Control for Steer-By-Wire Vehicles in High-Speed Maneuvers"
+...
