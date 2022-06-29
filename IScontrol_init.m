@@ -1,13 +1,5 @@
 init.m;
 
-% %% Uncomment for Sine or Step steering inputs.
-% data.Tsim= 44; % Simulation time
-% data.N = single(data.Tsim/data.Ts);
-% %data.inputs.delta_raw= DeltaSineFunc(data, deg2rad(2),0.2); % SINE
-% %data.inputs.delta_raw= DeltaStepFunc(data,deg2rad(2), 2); % STEP
-% data.Tvec= 0:data.Ts:(data.Tsim-data.Ts); % Time vector
-% %plot(data.Tvec',rad2deg(data.inputs.delta_raw))
-
  %% Uncomment for Double Lane Change Input
 load('steering_ref_dlc.mat');
 delta_ref= deg2rad(veh.sr*(ref_steering_angle.Data));
